@@ -1,15 +1,20 @@
 import React from 'react';
 import './App.css';
+import { MuiSkeleton } from './components/MuiSkeleton';
+// import { MuiAlert } from './components/MuiAlert';
 import { MuiAvatar } from './components/MuiAvatar';
 // import { MuiToolTip } from './components/MuiToolTip';
 // import { MuiBadge } from './components/MuiBadge';
-import { MuiBottomNavigation } from './components/MuiBottomNavigation';
+// import { MuiBottomNavigation } from './components/MuiBottomNavigation';
+import { MuiDailog } from './components/MuiDailog';
 // import { MuiChip } from './components/MuiChip';
 // import { MuiBreadcrumbs } from './components/MuiBreadcrumbs';
 // import { MuiDrawer } from './components/MuiDrawer';
 // import { MUILink } from './components/MUILink';
 import { MUINavbar } from './components/MUINavbar';
-import { MuiTable } from './components/MuiTable';
+// import { MuiProgress } from './components/MuiProgress';
+// import { MuiSnackBar } from './components/MuiSnackBar';
+// import { MuiTable } from './components/MuiTable';
 // import { MuiSpeedDail } from './components/MuiSpeedDail';
 // import { MuiList } from './components/MuiList';
 // import { MUIImageList } from './components/MUIImageList';
@@ -53,8 +58,13 @@ function App() {
       {/* <MuiList></MuiList> */}
       {/* <MuiChip></MuiChip> */}
       {/* <MuiToolTip></MuiToolTip> */}
-      <MuiTable></MuiTable>
-      <MuiBottomNavigation></MuiBottomNavigation>
+      {/* <MuiTable></MuiTable> */}
+      {/* <MuiBottomNavigation></MuiBottomNavigation> */}
+      {/* <MuiAlert></MuiAlert> */}
+      {/* <MuiSnackBar></MuiSnackBar> */}
+      <MuiDailog></MuiDailog>
+      {/* <MuiProgress></MuiProgress> */}
+      <MuiSkeleton></MuiSkeleton>
     </div>
   );
 }
